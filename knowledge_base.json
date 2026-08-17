@@ -1,0 +1,42 @@
+{
+  "symptoms": {
+    "1": "Inclined tray",
+    "2": "Bottles not picked up or falling during transfer to crates",
+    "3": "Bottles not properly centered",
+    "4": "Bottles are damaged",
+    "5": "Crates not correctly positioned",
+    "6": "Crates fall during transfer",
+    "7": "No crate detected",
+    "8": "Machine stops during automatic cycle",
+    "9": "Abnormal noise",
+    "10": "Conveyor does not move",
+    "11": "Bottles remain on conveyor",
+    "12": "Poor transfer between conveyors",
+    "13": "Sensor fault or detection problem",
+    "14": "Pneumatic movement is weak or slow",
+    "15": "Motor overheats",
+    "16": "Product jam",
+    "17": "Machine does not restart",
+    "18": "Other abnormal operation"
+  },
+  "diagnostics": [
+    {"id": 1, "cause": "Tray alignment or positioning problem", "remedy": "Check and correct tray alignment and positioning.", "owner": "C"},
+    {"id": 2, "cause": "Insufficient suction or pickup mechanism problem", "remedy": "Check suction, pickup mechanism and related connections.", "owner": "M"},
+    {"id": 3, "cause": "Bottle guide or centering mechanism misaligned", "remedy": "Inspect and adjust the bottle guides and centering mechanism.", "owner": "M"},
+    {"id": 4, "cause": "Incorrect handling or damaged transfer component", "remedy": "Inspect the transfer components and correct handling/alignment.", "owner": "M"},
+    {"id": 5, "cause": "Crate positioning or guide problem", "remedy": "Check crate positioning and guides.", "owner": "C"},
+    {"id": 6, "cause": "Incorrect crate transfer alignment", "remedy": "Inspect transfer alignment and adjust the guides.", "owner": "M"},
+    {"id": 7, "cause": "Sensor not detecting crate or sensor contaminated", "remedy": "Check sensor condition, cleanliness and alignment.", "owner": "M"},
+    {"id": 8, "cause": "Safety condition, sensor signal or automatic-cycle fault", "remedy": "Check active alarms, safety conditions and sensor signals before restarting.", "owner": "M"},
+    {"id": 9, "cause": "Loose, misaligned or insufficiently lubricated component", "remedy": "Inspect for looseness, alignment and lubrication requirements.", "owner": "M"},
+    {"id": 10, "cause": "Motor, drive, electrical supply or mechanical blockage", "remedy": "Check the electrical supply, drive/motor and inspect for mechanical blockage.", "owner": "M"},
+    {"id": 11, "cause": "Transfer mechanism or guide problem", "remedy": "Inspect guides and transfer mechanism for correct operation.", "owner": "M"},
+    {"id": 12, "cause": "Conveyor alignment or speed mismatch", "remedy": "Check conveyor alignment and operating speed.", "owner": "M"},
+    {"id": 13, "cause": "Dirty, misaligned or failed sensor", "remedy": "Clean, align and test the relevant sensor.", "owner": "M"},
+    {"id": 14, "cause": "Low air pressure, air leak or pneumatic restriction", "remedy": "Check air pressure, hoses, fittings and pneumatic components.", "owner": "M"},
+    {"id": 15, "cause": "Overload, poor ventilation or motor fault", "remedy": "Stop and inspect motor load, ventilation and motor condition.", "owner": "M"},
+    {"id": 16, "cause": "Obstruction or product accumulation", "remedy": "Stop the equipment and safely clear the obstruction according to procedure.", "owner": "M"},
+    {"id": 17, "cause": "Safety interlock, alarm condition or control fault", "remedy": "Check alarms and safety interlocks before attempting restart.", "owner": "M"},
+    {"id": 18, "cause": "Cause requires further troubleshooting", "remedy": "Stop if unsafe and escalate to qualified maintenance personnel.", "owner": "M"}
+  ]
+}
